@@ -24,6 +24,7 @@ jobs:
 
 
   deploy:
+    needs: test
     name: Deploy Code
     runs-on:  ubuntu-latest
 
